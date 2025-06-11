@@ -4,9 +4,24 @@ This project demonstrates the critical role of **phase** in image formation thro
 
 ---
 
-## 🔍 Why Phase Matters More Than Amplitude
+## 🖼️ Why Phase Matters?
 
-We begin by loading two images (e.g., Amir and Jason), computing their Fourier transforms, and **swapping amplitude and phase**. The reconstructed images clearly reveal that **image structure is primarily encoded in the phase**, not the amplitude.
+We begin by loading two well-known images — **Astronaut** and **Cameraman** — and swapping their **Fourier amplitude** and **phase** components. The experiment clearly reveals that **image structure is primarily encoded in the phase**, not the amplitude.
+
+<p align="center">
+  <img src="https://github.com/amirrezavazifeh/Phase-Rerieval/raw/main/Why%20Phase%20Matters%3F.png" alt="Why Phase Matters" width="100%">
+</p>
+
+---
+
+## 🔁 Phase Retrieval from Magnitude
+
+Given only the Fourier **magnitude** and a known **support constraint**, we implement and compare two iterative algorithms:
+
+- 🟢 **ER (Error Reduction)** – Applies alternating projections to satisfy constraints.
+- 🔵 **HIO (Hybrid Input-Output)** – Improves convergence using feedback from previous iterations.
+
+Both methods are evaluated visually and through a video showing step-by-step reconstructions.
 
 ---
 
@@ -15,18 +30,6 @@ We begin by loading two images (e.g., Amir and Jason), computing their Fourier t
 A visual comparison of the ER and HIO algorithms over iterations:
 
 <video src="https://github.com/amirrezavazifeh/Phase-Rerieval/raw/main/HIO%20vs%20ER.mp4" controls width="100%" style="border-radius: 10px; margin-top: 10px;"></video>
-
-
----
-
-## 🔁 Phase Retrieval from Magnitude
-
-Given only the Fourier **magnitude** and a known **support constraint**, we implement and compare two iterative algorithms:
-
-- **ER (Error Reduction)** – Applies alternating projections to satisfy constraints.
-- **HIO (Hybrid Input-Output)** – Improves convergence using feedback from previous iterations.
-
-Both methods are evaluated visually and with a video showing step-by-step reconstructions.
 
 ---
 
