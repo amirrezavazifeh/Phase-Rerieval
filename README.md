@@ -1,6 +1,6 @@
 # Phase Retrieval and the Importance of Phase in Fourier Domain
 
-This project demonstrates the critical role of **phase** in image formation through a simple visual experiment, followed by the implementation of two classical **phase retrieval** algorithms: **Error Reduction (ER)** and **Hybrid Input-Output (HIO)**.
+This code demonstrates the critical role of **phase** in image formation through a simple visual experiment, followed by the implementation of two classical **phase retrieval** algorithms: **Error Reduction (ER)** and **Hybrid Input-Output (HIO)**.
 
 ---
 
