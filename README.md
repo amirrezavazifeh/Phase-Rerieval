@@ -29,7 +29,7 @@ Both methods are evaluated visually and through a video showing step-by-step rec
 
 A visual comparison of the ER and HIO algorithms over iterations:
 
-<video src="https://github.com/amirrezavazifeh/Phase-Rerieval/raw/main/HIO%20vs%20ER.mp4" controls width="100%" style="border-radius: 10px; margin-top: 10px;"></video>
+[![Watch the video](https://img.youtube.com/vi/8rJYhRMVvQw/0.jpg)](https://github.com/amirrezavazifeh/Phase-Rerieval/raw/main/HIO%20vs%20ER.mp4)
 
 ---
 
