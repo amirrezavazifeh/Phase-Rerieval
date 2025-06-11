@@ -4,17 +4,17 @@ This project demonstrates the critical role of **phase** in image formation thro
 
 ---
 
+## 🔍 Why Phase Matters More Than Amplitude
+
+We begin by loading two images (e.g., Amir and Jason), computing their Fourier transforms, and **swapping amplitude and phase**. The reconstructed images clearly reveal that **image structure is primarily encoded in the phase**, not the amplitude.
+
+---
+
 ## 🎥 Demonstration Video
 
 A visual comparison of the ER and HIO algorithms over iterations:
 
 <video src="https://github.com/amirrezavazifeh/Phase-Rerieval/raw/main/HIO%20vs%20ER.mp4" controls width="100%" style="border-radius: 10px; margin-top: 10px;"></video>
-
----
-
-## 🔍 Why Phase Matters More Than Amplitude
-
-We begin by loading two images (e.g., Amir and Jason), computing their Fourier transforms, and **swapping amplitude and phase**. The reconstructed images clearly reveal that **image structure is primarily encoded in the phase**, not the amplitude.
 
 ---
 
